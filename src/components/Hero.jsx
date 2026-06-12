@@ -54,7 +54,7 @@ export default function Hero() {
 
         {/* main photo — tilted, with deep shadow */}
         <img
-          src='/main_up.jpg'
+          src={`${import.meta.env.BASE_URL}main_up.jpg`}
           className="relative z-10 rounded-sm"
           style={{
             width: '62%',
