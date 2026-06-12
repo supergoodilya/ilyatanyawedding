@@ -45,7 +45,7 @@ export default function PhotoGallery() {
       {/* row 1: two photos, staggered vertically */}
       <div className="relative flex justify-center items-start mb-2" style={{ height: 220 }}>
         <img
-          src='src/assets/we_5.jpg'
+          src='/we_5.jpg'
           className="absolute object-cover rounded-sm"
           style={{
             width: '52%', left: '4%', top: 0,
@@ -54,7 +54,7 @@ export default function PhotoGallery() {
           }}
         />
         <img
-          src='src/assets/we_3.jpg'
+          src='/we_3.jpg'
           className="absolute object-cover rounded-sm"
           style={{
             width: '46%', right: '4%', top: 40,
@@ -67,7 +67,7 @@ export default function PhotoGallery() {
       {/* row 2: wide center photo */}
       <div className="flex justify-center mt-8 mb-2">
         <img
-          src='src/assets/we_1.jpg'
+          src='/we_1.jpg'
           className="object-cover rounded-sm"
           style={{
             width: '78%',
@@ -80,7 +80,7 @@ export default function PhotoGallery() {
       {/* row 3: two photos staggered, mirrors row 1 */}
       <div className="relative flex justify-center items-start mt-2" style={{ height: 270 }}>
         <img
-          src='src/assets/we_4.jpg'
+          src='/we_4.jpg'
           className="absolute object-cover rounded-sm"
           style={{
             width: '46%', left: '4%', top: -20,
@@ -89,7 +89,7 @@ export default function PhotoGallery() {
           }}
         />
         <img
-          src='src/assets/we_2.jpg'
+          src='/we_2.jpg'
           className="absolute object-cover rounded-sm"
           style={{
             width: '52%', right: '4%', top: -40,
