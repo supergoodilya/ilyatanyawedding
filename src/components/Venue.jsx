@@ -35,7 +35,7 @@ export default function Venue() {
       </div>
 
       <div className="max-w-sm mx-auto">
-        <img class="_1d1tvum" src="https://i5.photo.2gis.com/photo-gallery/9140c8ae-c695-494b-a7cf-b72124fdba03.jpg" alt="Фото"></img>
+        <img class="_1d1tvum" src="https://i1.photo.2gis.com/photo-gallery/d4fc83a0-80b1-468f-b24b-083a258e1c68.jpg" alt="Фото"></img>
         
         {/* restaurant info card */}
         <div className="bg-cream-50 border border-cream-300 rounded-sm px-6 py-6 shadow-sm text-center">

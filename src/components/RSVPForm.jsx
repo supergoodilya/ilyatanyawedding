@@ -79,11 +79,21 @@ export default function RSVPForm() {
           <p className="font-lora text-choco-400 text-sm leading-relaxed mb-2">
             Спасибо, {form.name}! Мы получили ваш ответ.
           </p>
-          
-          {form.attendance === 'yes' && (
-          <p className="font-lato text-sage-500 text-xl mt-4">
-            Ждём вас с нетерпением!
-          </p>)}
+
+          {form.attendance === 'yes' ? (
+            <>
+              <p className="font-lora text-sage-500 text-base mt-4 mb-5">
+                Ждём вас с нетерпением!
+              </p>
+              <p className="font-lora text-choco-300 text-xs leading-relaxed italic">
+                Если обстоятельства изменятся и вы не сможете прийти — пожалуйста, сообщите об этом тому, кто отправлял вам приглашение. Нам важно знать заранее.
+              </p>
+            </>
+          ) : (
+            <p className="font-lora text-choco-300 text-sm leading-relaxed mt-4">
+              Жаль, что вы не сможете быть с нами. Будем думать о вас в этот день!
+            </p>
+          )}
         </div>
       </section>
     )
@@ -176,7 +186,7 @@ export default function RSVPForm() {
         {form.attendance === 'yes' && (
         <div>
           <label className="font-lora text-choco-400 text-xs uppercase tracking-widest2 block mb-1.5">
-            Предпочтения по алкоголю
+            Простые предпочтения по алкоголю
           </label>
           <input
             type="text"
